@@ -1,6 +1,6 @@
 {
-  "name": "GPT-3 Writer",
-  "description": "Write a blog post in the style of your favorite thinker anywhere!",
+  "name": "PaperPal",
+  "description": "A Chrome Extension that is focused on summarizing academic papers in the form of PDFs that also highlight key points, such as data, methods, tables, etc. This will be open to all, as it will have comprehension levels from that of a preschooler to that of a Ph.D. student.",
   "version": "1.0",
   "manifest_version": 3,
   "icons": {
@@ -12,5 +12,6 @@
   "action": {
     "default_popup": "index.html",
     "default_title": "Generate blog post"
-  }
+  },
+  "permissions": ["contextMenus", "tabs", "storage"]
 }
